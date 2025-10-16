@@ -1,4 +1,16 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/jNsaiKCH)
+## About
+
+This project was developed as part of my C++ final project, which I completed during third year of my BSc(Hons) Physics Degree. 
+
+## Features
+
+- Constructs a CMS-like detector, adds sub-detectors, modifies it, creates sample particles and passes them through each sub-detector to test detection functionality.
+- Sub-detectors include trackers, calorimeters (2 types) and muon chambers (2 types).
+- Particles include neutrinos, photons, hadrons and electrons.
+- Factors like detection efficiency, resolution and sampling fraction are used to make the detectors more realistic.
+- Particle type is inferred due to what it has been detected by and compared to its actual type to see if detector inefficiencies caused an inaccurate inferred type.
+- Also calculates missing transverse energy for neutrinos
+- Written in modern C++17
 
 ## Building
 
@@ -9,3 +21,4 @@ g++ -std=c++17 -Wall -Wextra four_momentum.cpp particle.cpp electron.cpp muon.cp
 
 
 Once built simply execute: ./detector_sim
+
