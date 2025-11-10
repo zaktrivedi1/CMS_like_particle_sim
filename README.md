@@ -12,6 +12,11 @@ This project was developed as part of my C++ final project, which I completed du
 - Also calculates missing transverse energy for neutrinos
 - Written in modern C++17
 
+## Report
+A detailed write-up of the simulation methodology, detector modelling and analysis results:  
+[Read the full technical report (PDF)](finished_zak_trivedi_code_report.pdf)
+
+
 ## Building
 
 From the project root, run (left in one line for copy and paste friendliness):
